@@ -21,7 +21,7 @@ Features:
 From the root of your Hugo site:
 ```sh
 $ cd themes
-$ git clone https://github.com/hivickylai/hugo-theme-introduction.git introduction
+$ git clone https://github.com/wanimaru47/hugo-theme-introduction.git introduction
 ```
 
 ### Configure your site
