@@ -26,7 +26,7 @@
             <!-- Begin Blog container -->
             <ul>
                 <!-- Ranges through content/post/*.md -->
-                {{ range .Data.Pages.ByPublishDate }} {{ if not (eq .Section "blog") }}
+                {{ range .Data.Pages.ByData.Reverse }} {{ if not (eq .Section "blog") }}
                 <li>
                     <a href="{{.Permalink}}">{{.Date.Format .Site.Params.dateform }} | {{.Title}}</a>
                 </li>
